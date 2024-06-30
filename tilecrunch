@@ -1,0 +1,459 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "io.github.onpon4.TileCrunch",
+    "pixelsRounding": true,
+    "projectUuid": "4feb43d3-8e9e-48cc-b5ee-db37ec5814cf",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptHeight",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.2.2",
+    "name": "Tile Crunch",
+    "description": "You are a worker being sent workloads, represented by hammers, and your job requires you to complete all of the work – catch all the hammers before they reach the bottom of the screen. You can pace yourself and walk slowly to the hammers, or you can rush by holding the rush button; rushing allows you to move much faster, but the tiles you walk on are unstable and may crack if you do so. Without the tiles, you can barely walk at all.\n\nThis game is made for the GDevelop Big Game Jam #5, whose theme is \"unstable\". There are two aspects to the way this game utilizes the theme. Firstly, and most obviously, is the physical instability of the tiles. But secondly, and more importantly, it represents the instability of a workplace that pushes workers too hard, how an employer can ultimately doom the employee to failure by demanding too much.\n\nI decided to make this game to give everyone a taste of what it's like to live with invisible disability that doesn't get taken seriously. Just like how you can appear for awhile to be able to move faster than you reasonably can in this game, I can appear for awhile to be able to work harder than I reasonably can. But once you run out of tiles, or once I run out of spoons, work performance plummets to almost nothing.\n\nControls:\n\nMove with the arrow keys, or with the d-pad on a gamepad.\nRush by holding the space bar, or holding one of the face buttons on a gamepad.",
+    "author": "diligentcircle",
+    "windowWidth": 1280,
+    "windowHeight": 704,
+    "latestCompilationDirectory": "/home/natasha-deb11/projects/tilecrunch/tilecrunch_web",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "tilecrunch.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "x1TFi8nCIyV3Z7iYoAx3Vk2D2Cc2"
+    ],
+    "authorUsernames": [
+      "diligentcircle"
+    ],
+    "categories": [
+      "game-jam-5",
+      "action",
+      "survival"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crumble17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Crumble17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crumble18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Crumble18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crumble19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Crumble19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crumble20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Crumble20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crumble21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Crumble21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/kenvector_future.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "09884c158c08409269c534b1e1e64a36a21f087bd06f66cff077a91788a4ec9a_kenvector_future.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/09884c158c08409269c534b1e1e64a36a21f087bd06f66cff077a91788a4ec9a_kenvector_future.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6d8e529f898d0d1cfc8e94ba10ae0a01e0a31b08bc0d11ec35074a34f3485f55_Transparent Button With White Blue Border_Hovered.png",
+          "name": "Transparent Button With White Blue Border_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+          "name": "Transparent Button With White Blue Border_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c18e2e342a2cce350f068208df2b7f5549dc600d2201609b1d3d76c497fffd30_Transparent Button With White Blue Border_Pressed.png",
+          "name": "Transparent Button With White Blue Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "Kenney Mini Square.ttf"
+        }
+      },
+      {
+        "file": "assets/pickupCoin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pickupCoin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4aa71b56-b8fc-4ffc-92b6-3b2feac6ba98/resources/2ba5ae2bd8129b038e90125946b436a578f693364e3bccd43d390d8c1d181f45-pickupCoin.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/hitHurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hitHurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4aa71b56-b8fc-4ffc-92b6-3b2feac6ba98/resources/f5639ead35292fffcc9f6005a928b6c1eb688680ee9a3d8461e21857552f394d-hitHurt.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4aa71b56-b8fc-4ffc-92b6-3b2feac6ba98/resources/90e1518ea8e4cee36bf75e8663bfb041353c893a5a1cdfa2b9a059091aca3b47-explosion.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/powerUp.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "powerUp.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4aa71b56-b8fc-4ffc-92b6-3b2feac6ba98/resources/5c4f8d01f830be377938bed3bad64102b06d15e1f59704283d5ce1f5828d6bc7-powerUp.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilecrunch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilecrunch.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4aa71b56-b8fc-4ffc-92b6-3b2feac6ba98/resources/a7ab1af199df692b4addd1cf634c2ecdd482edbc20dbc5c30be65749b26d62d3-tilecrunch.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Line light joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Line light joystick border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1da99d3c0a498c8b22ca295dfb33d5f121d13ac6241f68fb81dd730955db5e1f_Line light joystick border.png",
+          "name": "Line light joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Line light joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Line light joystick thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/6e451170154c7ae31c25495ad2d2ac48ba8c8d62e93e90bfcfe3c7e509c9ce66_Line light joystick thumb.png",
+          "name": "Line light joystick thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/B Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "B Button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Button/x128/Dark Light/fe2e496332d0668c949946cae92a77fc31f140f505f771654c2997cc1e9eb21d_B Button.png",
+          "name": "B Button.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Temp",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/titlescreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
